@@ -11,3 +11,8 @@ type XMUser struct {
 	CreateTime  time.Time `json:"create_time" gorm:"column:create_time"`
 	LastLogin   time.Time `json:"last_login" gorm:"column:last_login"`
 }
+
+// New a xm user instance.
+func New() *XMUser {
+	return &XMUser{}
+}
