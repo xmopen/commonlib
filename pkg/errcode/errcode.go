@@ -30,4 +30,7 @@ var (
 
 	// ErrorUserRegisterFail 用户注册失败.
 	ErrorUserRegisterFail = &CommonResult{Code: 20001, Msg: "用户注册失败,请重试！"}
+
+	// ErrorUserAccountIllegal 用户账号或密码不合法.
+	ErrorUserAccountIllegal = &CommonResult{Code: 20002, Msg: "用户账号或密码不合法,请重新尝试！"}
 )
