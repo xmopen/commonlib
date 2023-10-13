@@ -5,6 +5,7 @@ type XMBlogsArchive struct {
 	ID      int    `json:"id" gorm:"column:id"`
 	Name    string `json:"name" gorm:"column:name"`
 	BKStyle string `json:"bk_style" gorm:"column:bk_style"`
+	Weight  int    `json:"weight" gorm:"column:weight"`
 	Status  int8   `json:"status" gorm:"column:status"`
 }
 
