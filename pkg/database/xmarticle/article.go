@@ -10,8 +10,8 @@ type Article struct {
 	SubHead   string `json:"sub_head" gorm:"column:subhead"`
 	Img       string `json:"img" gorm:"column:img"`
 	Type      string `json:"type" gorm:"column:type"`
-	TypeID    string `json:"type_id" gorm:"column:type_id"` // 分类ID.
-	Publish   int    `json:"publish" gorm:"column:publish"` // 是否发布.
+	TypeID    int    `json:"type_id" gorm:"column:type_id"` // TypeID 分类ID.
+	Publish   int    `json:"publish" gorm:"column:publish"` // Publish 是否发布.
 	ReadCount int    `json:"read_count" gorm:"column:read_count"`
 }
 
