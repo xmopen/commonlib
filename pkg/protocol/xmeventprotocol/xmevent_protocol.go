@@ -9,4 +9,6 @@ const (
 	XMEventKeyOfArticleUpdate XMEventKey = "xm_event_article_update"
 	// XMEventKeyOfArticleCommentUpdate 文章评论更新事件
 	XMEventKeyOfArticleCommentUpdate XMEventKey = "xm_event_article_comment_update"
+	// XMEventKeyOfArchiveUpdate 文章分类更新
+	XMEventKeyOfArchiveUpdate XMEventKey = "xm_event_archive_update"
 )
