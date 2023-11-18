@@ -1,7 +1,7 @@
 // Package errcode  错误码.
 package errcode
 
-// CommonResult result struct.
+// CommonResult result structural.
 type CommonResult struct {
 	Code int    `json:"code"`
 	Msg  string `json:"msg"`

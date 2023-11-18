@@ -2,7 +2,7 @@ package xmcomment
 
 import "time"
 
-// XMComment comment struct
+// XMComment comment structural
 type XMComment struct {
 	ID         int       `json:"id" gorm:"column:id"`
 	ArticleID  int       `json:"article_id" gorm:"column:article_id"` // ArticleID 评论所属文章ID
