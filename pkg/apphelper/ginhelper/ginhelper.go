@@ -6,7 +6,7 @@ import (
 	"github.com/xmopen/golib/pkg/xlogging"
 )
 
-// Log return an xlogging instance for gin.context
+// Log return an xlogging instance for gin.tcontext
 func Log(c *gin.Context) *xlogging.Entry {
 	xlogItr, ok := c.Get("xlog")
 	if ok {
